@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>과제1_2017204022_어승준</title>
+    <link rel="stylesheet" href="../css/인미과제.css">
+</head>
+<body>
+    <header>
+        <a href="https://www.kw.ac.kr/ko/" target="_blank">
+            <img src="../images/logo.gif">
+        </a>
+
+        <div class="title clearfix">
+            <h1>인터랙티브미디어개론 과제</h1>
+            <h3>　자기를 소개하는 웹페이지 만들기</h6>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <figure>
+                <img src="../images/나2.jpg" alt="승준" title="승준" width="300px" height="300px">
+                <figcaption>반갑습니다😄</figcaption>
+            </figure>
+            <section class="introduce">
+                <div class="hello">
+                    <b>안녕하세요🖐🏻 <br> 저에 대해 소개하겠습니다!</b>
+                </div>
+
+                <div class="circle">
+                    <section>
+                        <a href="#" id="link1">소개</a>
+                    </section>
+                    <div class="modal-wrapper" id="mw1" style="display: none;">
+                        <div class="modal">
+                            <div class="modal-title">소개</div>
+                                <ul>
+                                    <li>이름 : 어승준</li>
+                                    <hr>
+                                    <li>생일 : 1998.02.17</li>
+                                    <hr>
+                                    <li>직업 : 대학생</li>
+                                    <hr>
+                                    <li>취미 : 농구, 산책, 게임, 노래</li>
+                                    <hr>
+                                    <li>주소 : 서울시 강남구 역삼2동 xx아파트</li>
+                                    <hr>
+                                </ul>
+                                <br>
+                            <div class="close-wrapper">
+                                <button id="close1">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <section>
+                        <a href="#" id="link2">학업</a>
+                    </section>
+                    <div class="modal-wrapper" id="mw2" style="display: none;">
+                        <div class="modal">
+                            <div class="modal-title">학업</div>
+                                <p class="index">학업분야의 관심사</p>
+                                <p class="ex">저는 프론트엔드에 흥미가 있어서, 최근 HTML, CSS, Javascript, React 등 여러가지를 공부하고 있습니다. 개강 전에도 미리 예습을 해보았고, 이 분야를 더욱 파고 들어 전문적인 수준에 오르는게 제 목표입니다. 또한 백엔드에도 살짝 관심이 있는데, Node.js등의 라이브러리를 이용하여 서버와 연동할 수 있는 웹 제작도 해볼 예정입니다.</p>
+                                <hr>
+                                <p class="index">정융에서 어떤 과목 앞으로 듣고 싶은지</p>
+                                <p class="ex">다음 학기에 웹프로그래밍을 꼭 듣고 싶습니다. 제가 관심있는 분야인 "프론트엔드"와도 상당히 밀접한 수업이고, 또 잘 할 자신이 있기 때문에 정말 기대가 됩니다. 추가로, 백엔드 관련 수업은 없는 걸로 알고 있는데 개설되었으면 하는 바람이 있습니다.</p>
+                            <div class="close-wrapper">
+                                <button id="close2">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section>
+                        <a href="#" id="link3">진로</a>
+                    </section>
+                    <div class="modal-wrapper" id="mw3" style="display: none;">
+                        <div class="modal">
+                            <div class="modal-title">진로</div>
+                                <p class="index">졸업 후 희망하는 진로</p>
+                                <p class="ex">저는 프론트엔드 개발자가 되는게 목표입니다. 희망하는 기업으로는 "네이버", "카카오", "라인", "쿠팡", "배달의민족"등이 있고, 희망하는 업무로는 온라인쇼핑몰 UI 개발, 거래소 Front-end 웹 서비스 개발, 업무용 웹 어플리케이션 개발, 기타 웹 페이지 개발 등이 있습니다. 추가로, 요즘 프론트엔드 취업시장에서 가장 유망있는 "리액트"를 아직 기초 단계이긴 하지만, 집중적으로 공부하고 있는데 이것의 이점을 잘 살려 취업을 하는데 도움이 되었으면 좋겠습니다.</p>
+                                <p class="ex">한편 저희 부모님께서 자영업(요식업)을 하시는데, 나중에 제가 이어받을 생각이 있습니다. 그래서 제가 훗날 가질 웹 기술력을 저희 매장 웹 개발 등에 활용하여 매출에 이바지할 수 있지 않을까라는 생각도 해보았습니다.</p>
+                            <div class="close-wrapper">
+                                <button id="close3">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="explain_box">
+                    <p id="explain">(위의 동그라미를 클릭하면 모달창이 나타납니다!)</p>
+                    <hr>
+                    <p cite="https://en.dict.naver.com/#/entry/enko/234a0a709b274e9299a39057f062624d">
+                        <dfn>Interactive</dfn>란, <em>"상호적인"</em> 이라는 뜻입니다. 김동준 교수님의 인터랙티브미디어개론 수업에서 *<abbr title="Hypertext Markup Language">HTML</abbr>과 *<abbr title="cascading style sheets">CSS</abbr>를 배우면, 웹을 보다 <strong>상호적</strong>으로 제작할 수 있습니다.
+                    </p>
+
+                    <dl>
+                        <dt>*HTML</dt> <dd>웹 문서를 만들기 위하여 사용하는 기본적인 웹 언어의 한 종류</dd>
+                        <dt>*CSS</dt> <dd>웹 문서의 전반적인 스타일을 미리 저장해 둔 스타일시트</dd>
+                    </dl>
+
+                    <p>저번 강의에서는 문자를 <i>italic</i>체로 변환하는 방법과, CO<sub>2</sub>, E=MC<sup>2</sup>등 윗첨자, 아랫첨자 쓰는 방법도 배웠습니다. <acronym title="corona virus disease-19">COVID-19</acronym>에도 불구하고 열정적으로 수업해주시는 교수님께 정말 감사합니다.</p>
+                
+                    <p>마지막으로 제가 <del>싫어하는</del> <ins>좋아하는</ins> 명언 하나 공유하겠습니다.</p>
+
+                    <blockquote>
+                        <b><q>The biggest risk is not taking any risk.</q></b> - 마크 주커버그
+                    </blockquote>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>📞 010-7366-3903</p>
+        <p>✉️ eoseungjun7@naver.com</p>
+
+        <section>
+            <a href="https://www.facebook.com/profile.php?id=100008215384993" class="facebook" title="페이스북으로 이동" target="_blank"></a>
+            <a href="https://www.instagram.com/_seungjun22/" class="instar" title="인스타그램으로 이동" target="_blank"></a>
+        </section>
+ 
+        <address><p>서울시 강남구 역삼2동</p></address>
+    </footer>
+
+    <script src="../js/인미과제.js"></script>
+</body>
+</html>
